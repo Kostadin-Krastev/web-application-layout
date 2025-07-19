@@ -1,4 +1,25 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #343a40;
+}
+
+nav {
+  background-color: #343a40;
+}
+
+menu {
+  background-color: #7048e8;
+  color: #fff;
+}
+
+section,
+aside {
+  background-color: #e9ecef;
 }
