@@ -17,7 +17,6 @@ body {
 }
 
 nav,
-menu,
 section,
 main,
 aside {
@@ -31,9 +30,28 @@ nav {
 }
 
 menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 40px;
   grid-column: 2 / -1;
   background-color: #7048e8;
+}
+
+button {
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
   color: #fff;
+  background-color: #5f3dc4;
+}
+
+button:last-child {
+  margin-left: auto;
+  background-color: #d6336c;
 }
 
 section,
