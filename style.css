@@ -5,16 +5,33 @@
 }
 
 body {
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+  height: 100vh;
   font-family: sans-serif;
   font-size: 24px;
+  text-align: center;
+  font-weight: bold;
   color: #343a40;
 }
 
+nav,
+menu,
+section,
+main,
+aside {
+  padding-top: 24px;
+}
+
 nav {
+  grid-row: 1 / -1;
   background-color: #343a40;
+  color: #fff;
 }
 
 menu {
+  grid-column: 2 / -1;
   background-color: #7048e8;
   color: #fff;
 }
